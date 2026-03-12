@@ -17,15 +17,15 @@ d) / (racine) : redirection vers login
 e) Connecté puis bouton Retour du navigateur : redirection vers login
 
 Q5 : Quelle différence entre <Link> et <NavLink> ? Pourquoi NavLink ici ?
-<Link> : utiliser pour MPA, efectue un rechargement de la page
-<NavLink> : utiliser pour SPA, n'effectue aucun rechargement de la page
+Link : utiliser pour MPA, efectue un rechargement de la page
+NavLink : utiliser pour SPA, n'effectue aucun rechargement de la page
 
 Q6 : Ce composant sert pour le POST ET le PUT. Qu’est-ce qui change entre les deux usages ? 
 Pour POST, le formulaire est vide et onSubmit envoie POST /projects.
 Pour PUT, les champs sont pré-remplis (initialName, initialColor) et onSubmit envoie PUT /projects/:id.
 
 Q7 : Arrêtez json-server et tentez un POST. Le message s’affiche ? 
-Oui, le message s'affiche : 
+Oui, le message s'affiche : Erreur undefined
 
 Q8 : Avec fetch, un 404 ne lance PAS d’erreur. Avec Axios, que se passe-t-il ? 
 fetch : pas d'erreur automatique
