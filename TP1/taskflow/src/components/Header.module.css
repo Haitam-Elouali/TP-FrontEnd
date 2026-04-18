@@ -1,0 +1,41 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;   /* centre verticalement */
+  height: 56px;
+  background-color: #1B8C3E;
+  color: white;
+  padding: 0 16px;       /* espace horizontal */
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  gap: 12px;             /* espace entre bouton et titre */
+}
+
+.menuBtn {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.logo {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.avatar {
+  background-color: white;
+  color: #1B8C3E;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
